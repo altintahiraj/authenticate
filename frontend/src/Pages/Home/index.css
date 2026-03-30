@@ -1,0 +1,81 @@
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #ff6347;
+    color: #fff;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #ffe4e1;
+}
+
+.cta-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #e5533d;
+}
+
+/* Sections */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Grid Cards */
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    min-width: 150px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff6347;
+    color: #fff;
+}
